@@ -15,9 +15,10 @@ EXAMPLE
     osm.GetProxy()
 
   Execute a QueryExpression and retrieve results
+  
     Task<EntityCollection> retrieveMultipleTask = osm.GetProxy().RetrieveMultipleAsync(query);
     var records = retrieveMultipleTask.Result;
-    
+
 Peek into Program.cs to see more examples
 
 Enjoy!
